@@ -1,0 +1,38 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  padding: 15px;
+}
+
+table {
+  th, td {
+    vertical-align: middle !important;
+  }
+
+  tr{
+
+    &:first-child{
+      .editable-wrap {
+        border-top: 0;
+      }
+    }
+
+    .editable-wrap {
+      border-top: 1px solid #ddd;
+      display: block;
+    }
+  }
+}
+
+.login-page{
+  #main-footer{
+    z-index: 9999;
+
+    .btn-group{
+      @include box-shadow(0 0 5px #333);
+    }
+
+  }
+}

@@ -1,0 +1,48 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.divider{
+  clear: both;
+  height: 20px;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.panel-heading{
+  padding: 10px;
+}
+
+.modal {
+  padding-top: 30px;
+
+  .panel:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.modal-dialog{
+  .modal-footer{
+    margin-top: 0;
+  }
+
+  .alert{
+    margin: 15px 0 5px;
+  }
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.editable {
+  cursor: pointer;
+}
